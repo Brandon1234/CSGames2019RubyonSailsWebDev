@@ -11,7 +11,6 @@
     <script src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
     <link href="style.css" rel="stylesheet">
     <script type="text/javascript" src="http://code.jquery.com/jquery-latest.min.js"></script>
-    <script>$(function() { alert('hello') });</script>
 </head>
 <body>
 
@@ -23,13 +22,13 @@
 
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav mr-auto">
+            <li class="nav-item">
+                <a class="nav-link" href="index.html">Home </a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="profile.html">Profile<span class="sr-only">(current)</span></a>
+            </li>
             <li class="nav-item active">
-                <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="profile.html">Profile</a>
-            </li>
-            <li class="nav-item">
                 <a class="nav-link" href="jobs.html">Jobs</a>
             </li>
         </ul>
@@ -44,21 +43,45 @@
 
 <div class = "container-fluid">
     <div class = "row jumbotron text-center">
-        <div class>
-            <p class = "lead">
-                <h1>
-                    Public Service Commission of Canada
-                </h1>
+        <div class="card" style="width: 18rem;">
+            <div class="card-body">
+                <h5 class="card-title">Job 1</h5>
+                <p class="card-text"> Job Description</p>
+                <a href="#" class="card-link" id = "viewJob1">View</a>
+                <a href="#" class="card-link" id = "editJob1">Edit</a>
+            </div>
 
-                <h2 id="toChange">
-                    The Public Service Commission (PSC) is responsible for promoting and safeguarding a merit-based, representative and non-partisan public service that serves all Canadians, in collaboration with its stakeholders.
-                    It also manages the tools for public service recruitment, providing applicants and managers with a single portal to access all public service job opportunities.
-                    The PSC is a federal institution that is part of the Intergovernmental Affairs, Northern Affairs and Internal Trade portfolio and it reports independently to Parliament on its mandate.
-                </h2>
-            </p>
         </div>
+
+        <div class="card" style="width: 18rem;">
+            <div class="card-body">
+                <h5 class="card-title">Job 2</h5>
+                <p class="card-text"> Job Description2</p>
+                <a href="#" class="card-link" id = "viewJob2">View</a>
+                <a href="#" class="card-link" id = "editJob"2>Edit</a>
+            </div>
+        </div>
+
+        <div class="card" style="width: 18rem;">
+            <div class="card-body">
+                <h5 class="card-title">Job 3</h5>
+                <p class="card-text"> Job Description3</p>
+                <a href="#" class="card-link" id = "viewJob3">View</a>
+                <a href="#" class="card-link" id = "editJob3">Edit</a>
+            </div>
+        </div>
+
+        <div class="card" style="width: 18rem;">
+            <div class="card-body">
+                <h5 class="card-title">Job 4</h5>
+                <p class="card-text"> Job Description4</p>
+                <a href="#" class="card-link" id = "viewJob4">View</a>
+                <a href="#" class="card-link" id = "editJob4">Edit</a>
+            </div>
+        </div>
+
     </div>
+
 </div>
-
-
 </body>
+</html>
